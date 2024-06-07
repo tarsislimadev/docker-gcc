@@ -25,7 +25,7 @@ services:
 ```
 
 ```bash
-docker-gccompose up --build
+docker-compose up --build
 ```
 
 ### production
