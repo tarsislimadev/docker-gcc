@@ -3,9 +3,9 @@ version: '3'
 services:
 
   latest:
-    image: tmvdl/c:latest
+    image: tmvdl/gcc:latest
     build: './src/latest'
 
   alpine:
-    image: tmvdl/c:alpine
+    image: tmvdl/gcc:alpine
     build: './src/alpine'
