@@ -22,4 +22,4 @@ jobs:
       - name: Docker build
         run: docker-compose build
       - name: Docker push
-        run: docker push tmvdl/c -a
+        run: docker push tmvdl/gcc -a
