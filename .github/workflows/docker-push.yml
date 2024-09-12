@@ -1,15 +1,13 @@
-name: Docker push
+name: docker push
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '50 23 * * *'
   push:
     branches:
       - 'main'
+  workflow_dispatch:
 
 jobs:
-  docker:
+  push:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
